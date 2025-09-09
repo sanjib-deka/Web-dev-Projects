@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide all scrollbars (Webkit browsers) */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Hide scrollbars for Firefox */
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
